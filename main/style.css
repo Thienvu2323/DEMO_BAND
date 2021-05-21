@@ -1,0 +1,29 @@
+*{
+     padding: 0;
+     margin: 0;
+box-sizing: border-box;
+}
+.main{
+
+}
+
+.header{
+     height: 46px;
+     background-color:black;
+border: brown 1px solid;
+
+
+}
+.left{
+display: flex;
+color: blanchedalmond;
+
+}
+
+
+.content{
+
+}
+.footer{
+
+}
