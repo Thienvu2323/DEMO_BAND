@@ -63,13 +63,16 @@ box-sizing: border-box;
      text-decoration: none;
 }
 /* Main */
+html{
+     scroll-behavior: smooth;
+}
 .main{
     
 }
 
 #header{
 height: 46px;
- color: blanchedalmond;
+ /* color: blanchedalmond; */
  background-color:black;
  
  top: 0;
@@ -90,6 +93,30 @@ height: 46px;
 
 .left{
      display: flex;
+
+}
+.menulink{
+     white-space: normal;
+     display: inline-block;
+     color: blanchedalmond;
+}
+.menulink:hover{
+     text-decoration: none;
+     /* background-color: #ccc; */
+     color: black;
+     
+}
+/* .left a{
+     color:#fff;
+     /* position: absolute; */
+     
+     
+    
+     
+}
+.left a:hover{
+     text-decoration: none;
+     color:black; */
 }
 .right{
      color:#fff!important;
@@ -106,6 +133,7 @@ height: 46px;
 }
 .menuItem{
      padding: 12px 24px;
+     color:#fff;
      
      
 }
