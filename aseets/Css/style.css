@@ -89,6 +89,18 @@ height: 46px;
      height: 46px; 
 }
 
+.mobile{
+     display: none;
+}
+@media only screen and (max-width: 600px) {
+     .cpu {
+          display: none;
+     }
+     .mobile{
+          display: block;
+     }
+   }
+
     
 
 .left{
@@ -108,24 +120,25 @@ height: 46px;
 }
 /* .left a{
      color:#fff;
-     /* position: absolute; */
+     /* position: absolute;
      
      
     
      
-}
+} */
 .left a:hover{
      text-decoration: none;
      color:black; */
 }
 .right{
-     color:#fff!important;
+     color:#fff;
      font-size: 16px;
      /* line-height: 46px; */
      /* margin-right: 20px; */
      padding: 12px 24px;
      
 }
+
 .right:hover{
     color: black;
      cursor: pointer;
